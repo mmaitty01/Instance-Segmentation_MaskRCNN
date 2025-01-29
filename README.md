@@ -1,7 +1,7 @@
 # Instance segmentation of fashion images with Mask R-CNN
 งานหลัก ๆ ในทาง **Computer Vision** เราสามารถแบ่งออกได้เป็นสี่อย่าง ได้แก่ Classification ,Semantic Segmentation, Object Detection และ Instance Segmentation สำหรับโปรเจคนี้ของเราเป็นการทํา Instance Segmentation กับงานด้านแฟชัน ด้วย Mask R-CNN คือการหาว่าวัตถุต่างๆ ภายในรูปมี pixel ใดบ้าง ซึ่ง Mask R-CNN คือโมเดลที่ออกแบบมาเพื่อใช้สำหรับงานนี้โดยเฉพาะ
 
-<p align="center"><img width="700" src = "https://github.com/user-attachments/assets/3bef35d6-e953-48c7-a0d6-b56e8a7a41ac"></p>
+<p align="center"><img width="700" src = "https://github.com/user-attachments/assets/3bef35d6-e953-48c7-a0d6-b56e8a7a41ac"/></p>
 <p align="center" >
   <a href="#Introduction-and-Objectives">Introduction and Objectives</a> •
   <a href="#getting-started">Getting Started</a> •

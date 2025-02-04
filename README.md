@@ -1,7 +1,8 @@
 # Instance segmentation of fashion images with Mask R-CNN
 งานหลัก ๆ ในทาง **Computer Vision** เราสามารถแบ่งออกได้เป็นสี่อย่าง ได้แก่ Classification ,Semantic Segmentation, Object Detection และ Instance Segmentation สำหรับโปรเจคนี้ของเราเป็นการทํา Instance Segmentation กับงานด้านแฟชัน ด้วย Mask R-CNN คือการหาว่าวัตถุต่างๆ ภายในรูปมี pixel ใดบ้าง ซึ่ง Mask R-CNN คือโมเดลที่ออกแบบมาเพื่อใช้สำหรับงานนี้โดยเฉพาะ
 
-<p align="center"><img width="700" src = "https://github.com/user-attachments/assets/3bef35d6-e953-48c7-a0d6-b56e8a7a41ac"/></p>
+
+<p align="center"><img width="700" src = "https://github.com/user-attachments/assets/1acab9e8-9d06-4685-88eb-33433a718c19"/></p>
 <p align="center" >
   <a href="#Introduction-and-Objectives">Introduction and Objectives</a> •
   <a href="#getting-started">Getting Started</a> •
@@ -37,10 +38,12 @@ To run this app on jupyter notebook or Google Colab, follow these steps:
 7. **Predict**
 - ขั้นตอนสุดท้ายก็จะเป็นการนําโมเดลที่เทรนไว้มาใช้ทํานาย Test Data โดยเริ่มจากการเซ็ตค่า Config แล้วโหลดโมเดลที่เทรนไว้ขึ้นมา
 
+
+
 ## Results
 เมื่อสร้างคลาส Dataset ของข้อมูลชุดนี้สําเร็จ ก็จะสามารถลองทํา Visualization ดูได้ว่ามีรูปภาพและ Mask เป็นอย่างไรบ้าง โดย Mask Head จะแสดง Class ของชิ้นส่วนเสื้อผ้าที่ทํานายคู่กับค่า IoU ซึ่งมีค่าเข้าใกล้ 1 เมื่อ Pixel ค่าทํานายเท่ากับ Pixel ของชิ้นส่วนเสื้อผ้านั้นๆใน train data ซึ่งแสดงความน่าเชื่อถือของ Class ที่ทํานาย 
 
-<p align="center"><img width="600" src = "https://github.com/user-attachments/assets/32ffe41b-98af-4105-ab9d-2a0fc468d76e"></p>
-<p align="center"><img width="250" height = "380" src = "https://github.com/user-attachments/assets/29852b36-44d1-40b9-a9cc-50abdc1b1c0f">
-<img width="250" height = "380"  src = "https://github.com/user-attachments/assets/62d861cc-dda8-449d-b68c-6d27b47480f1">
-<img width="250" height = "380"  src = "https://github.com/user-attachments/assets/ed16342c-5537-48e6-bbf1-6e59893cd476"></p>
+<p align="center"><img width="600" src = "https://github.com/user-attachments/assets/ddeb8155-327d-41a1-923a-ee4989e07330"></p>
+<p align="center"><img width="250" height = "380" src = "https://github.com/user-attachments/assets/ca958a95-7210-4200-b227-35494ed1c601">
+<img width="250" height = "380"  src = "https://github.com/user-attachments/assets/533222e1-8a7b-4d41-a4e6-5bb762aed45a">
+<img width="250" height = "380"  src = "https://github.com/user-attachments/assets/8f080be2-a8dc-4e5a-9e79-ccbfe3f8fe49"></p>
